@@ -13,7 +13,7 @@ h1 {
 }
 
 
-section {
+.Flexible-Container {
     display: flex;
     margin-bottom: 50px;
 }
@@ -21,6 +21,7 @@ section {
 .Half-Width {
     width: 50%;
     padding-left: 5%;
+
 }
 
 .Half-Width img {
@@ -41,4 +42,35 @@ section {
 .Top-Banner {
     background-image: url(Top-Background-\ banner.jpg);
     border-radius: 5px;
+}
+
+.Second-Banner {
+    background-image: url(Top-Background-\ banner.jpg);
+    border-radius: 5px;
+}
+
+.Experiences-Item {
+    background-image: url(White\ Banner1.jpg);
+}
+
+.Experiences-Item {
+    box-shadow: 10px 10px 30px gray;
+    width: 80%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 3%;
+    border-radius: 10px;
+
+}
+
+#Fullstuck-Web-Developer {
+    border-left: 7px solid tomato;
+}
+
+#Baby-Web-Developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
